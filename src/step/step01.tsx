@@ -43,9 +43,13 @@ const Step01 = () => {
 
         - return할 자료 타입
         function myFunc(x:number) :number {
+            return x * 2;
         }
 
-    
+        - Union type 가능
+        function myFunc(x:number | string) {
+        }
+
     */
 
   return (
