@@ -51,7 +51,7 @@ const Step02 = () => {
     */
 
     function printAge(age : number | string){
-        age = age + 2;
+        // age = age + 2;
         if(typeof age === 'number'){
             age = age + 2;
             console.log(age)
